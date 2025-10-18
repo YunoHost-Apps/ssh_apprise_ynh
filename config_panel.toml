@@ -1,0 +1,16 @@
+#:schema https://github.com/YunoHost/apps/raw/main/schemas/config_panel.v1.schema.json
+
+version = "1.0"
+
+[main]
+
+    [main.configuration]
+
+        [main.configuration.recipients]
+        ask = "List of recipients"
+        type = "tags"
+        help = """\
+        Refer to <https://github.com/caronc/apprise#supported-notifications> for more information on the syntax.
+        Example with the ntfy app: `ntfys://TOKEN@ntfy.YOUR.DOMAIN.TLD/YOUR_SSH_TOPIC`
+        """
+        bind = "RECIPIENTS:__INSTALL_DIR__/script.sh"

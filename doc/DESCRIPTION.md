@@ -1,1 +1,1 @@
-This is a dummy description of this app features
+This utility uses the library Apprise to send notifications whenever a SSH connection is successful on the server.
