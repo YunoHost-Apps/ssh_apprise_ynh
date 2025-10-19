@@ -11,6 +11,7 @@ version = "1.0"
         type = "tags"
         help = """\
         Refer to <https://github.com/caronc/apprise#supported-notifications> for more information on the syntax.
+        Example with emails: `mailto://127.0.0.1?smtp=127.0.0.1&from=root@MAIN.DOMAIN.TLD&to=root@MAIN.DOMAIN.TLD`
         Example with the ntfy app: `ntfys://TOKEN@ntfy.YOUR.DOMAIN.TLD/YOUR_SSH_TOPIC`
         """
         bind = "RECIPIENTS:__INSTALL_DIR__/script.sh"
