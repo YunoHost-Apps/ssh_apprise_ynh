@@ -7,7 +7,7 @@ name = "SSH Apprise"
 description.en = "Get notified of any SSH connection with Apprise"
 description.fr = "Notification de connexions SSH avec Apprise"
 
-version = "2.2.0~ynh1"
+version = "2.3.0~ynh1"
 
 maintainers = ["tituspijean"]
 
@@ -43,8 +43,8 @@ ram.runtime = "50M"
     # Dummy resource to trigger version updates
     [resources.sources.main]
     prefetch = false
-    url = "https://github.com/caronc/apprise/archive/refs/tags/v2.2.0.tar.gz"
-    sha256 = "009787720deea80f37029e5b1042fdbfc88c609d6e5df4207259264e052a3f91"
+    url = "https://github.com/caronc/apprise/archive/refs/tags/v2.3.0.tar.gz"
+    sha256 = "1287e803a23611fa2fdb5be5ac824093c38ff0c148a44916ac93f587061ae497"
     autoupdate.strategy = "latest_github_release"
 
     [resources.system_user]
